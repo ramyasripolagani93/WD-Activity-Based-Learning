@@ -1,0 +1,71 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    background-color:#f4f3ff;
+    color:#292747;
+}
+header{
+    background-color:#6c5ce7;
+    color:white;
+    text-align:center;
+    padding:35px;
+}
+nav{
+    background-color:#332b69;
+    text-align:center;
+    padding:15px;
+}
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+}
+nav a:hover{
+    color:#ffeaa7;
+}
+section{
+    padding:25px;
+    margin:20px;
+    background-color:white;
+    border-radius:10px;
+}
+h2{
+    color:#6c5ce7;
+}
+.course{
+    display:inline-block;
+    vertical-align:top;
+    width:25%;
+    min-width:180px;
+    background-color:#eeebff;
+    padding:15px;
+    margin:10px;
+    border-radius:10px;
+}
+.course a{
+    display:inline-block;
+    background-color:#6c5ce7;
+    color:white;
+    padding:8px,12px;
+    text-decoration:none;
+    border-radius:5px;
+}
+.course a:hover{
+    background-color:#332b69
+}
+footer{
+    background-color:#332b69;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+@media (max-width:600px){
+    .course{
+        display:block;
+        width:auto;
+    }
+}
+nav a{
+    display:inline-block;
+    margin:8px;
+}
